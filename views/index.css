@@ -1,0 +1,51 @@
+body{
+    color: ;
+    background-color: #c5d5cb;
+}
+header{
+border: solid;
+text-align: center;
+font-weight: bold;
+width: 100%;
+}
+
+header > h1{
+    color: blue;
+}
+
+.calendarContainer{
+    width: 100%;
+}
+
+.monthContainer{
+    border: solid;
+    color: blueviolet;
+    font-weight: bold;
+    height: 100%;
+    width: 100%
+}
+
+.dayOfWeek{
+    border: ;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);   
+    grid-gap: 0.5em;
+}
+
+.dayOfWeek > span{
+    border: ;
+    height: 12vh;
+    text-align: center;
+}
+
+.days{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 0.5em;
+}
+
+.date{
+   border: groove;
+   height: 12vh;
+   text-align: center;
+}
