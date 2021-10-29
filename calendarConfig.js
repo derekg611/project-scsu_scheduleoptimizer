@@ -11,10 +11,10 @@ function calculateTable(year) {
     for (let month = 0; month < array.length; month++) {
         let startDayOfWeek = new Date(year, month, 0).getDay() + 1;
         let monthLong = new Date(year, month + 1,0).getDate() + 1;
-
+        
+        let startCount=false;
         let beforeCount=0;
         let counter=1;
-        let startCount=false;
 
         for (let x = 0; x < array[month].length; x++) {
             for (let y = 0; y < array[month][x].length; y++) {
